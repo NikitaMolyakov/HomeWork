@@ -1,9 +1,11 @@
 public class Cat extends Animal {
     private static final int MAX_RUN_DISTANCE = 200;
     private boolean isFull = false;
+    private static int count = 0;
 
     public Cat() {
         super();
+        count++;
     }
 
     @Override
