@@ -5,7 +5,7 @@ public class Cat extends Animal {
 
     public Cat() {
         super();
-        count++;
+        this.count++;
     }
 
     @Override
