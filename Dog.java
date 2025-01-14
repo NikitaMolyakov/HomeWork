@@ -1,9 +1,11 @@
 public class Dog extends Animal {
     private static final int MAX_RUN_DISTANCE = 500;
     private static final int MAX_SWIM_DISTANCE = 10;
+    private static int count = 0;
 
     public Dog() {
         super();
+        count++;
     }
 
     @Override
